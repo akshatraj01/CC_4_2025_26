@@ -34,15 +34,7 @@ Connect nodes using edges with weights
 Select the starting node
 Run the algorithm
 View the shortest path result visually
-▶️ Run Locally
-To run this project on your system:
 
-Clone the repository: git clone https://github.com/akshatraj01/DAA_4_2025_26.git
-
-Move into the project directory: cd DAA_4_2025_26
-
-Open index.html in any browser
-OR use VS Code Live Server for better experience
 
 🙋‍♂️ Author
 Akshat Raj
