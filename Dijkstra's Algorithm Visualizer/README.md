@@ -1,46 +1,72 @@
-🔍 Dijkstra Algorithm Visualizer
+# 🚀 Dijkstra Algorithm Visualizer
 
-An interactive web application that demonstrates the working of Dijkstra’s Algorithm for finding the shortest path in a graph.
+An interactive web-based visualizer that demonstrates how the **Dijkstra shortest path algorithm** works in real time. This project helps users understand how the algorithm finds the shortest path between nodes in a weighted graph through step-by-step visualization.
 
-Users can dynamically create their own graph by adding nodes and edges, then visualize how the algorithm computes the shortest path step by step.
+---
 
-🌐 Live Link Demo
+## 📌 Features
+
+* 🎯 Visual representation of nodes and weighted edges
+* ⚡ Step-by-step execution of Dijkstra’s algorithm
+* 🎮 Interactive UI to select source and destination nodes
+* 🔄 Real-time updates showing visited nodes and shortest path
+* 📊 Displays distance calculations dynamically
+* 🧠 Helps in understanding graph traversal and shortest path concepts
+
+---
+
+## 🧠 Algorithm Used
+
+* Dijkstra’s Algorithm (Greedy Approach)
+* Data Structures: Graph (Adjacency List/Matrix), Priority Queue
+
+---
+
+## 🛠️ Tech Stack
+
+* HTML (Structure)
+* CSS (Styling & UI)
+* JavaScript (Logic & Visualization)
+
+---
+
+## 📷 How It Works
+
+1. User selects a source node
+2. The algorithm initializes distances
+3. It explores the nearest unvisited node
+4. Updates shortest distances to neighboring nodes
+5. Repeats until the destination is reached
+6. Displays the shortest path visually
+
+---
+
+## 🎯 Purpose
+
+This project is designed for students and beginners to:
+
+* Understand Dijkstra’s Algorithm visually
+* Learn graph-based problem solving
+* Strengthen Data Structures & Algorithms concepts
+
+---
+
+## 🌐 Live Demo
+
 (https://69ea26b4b7a16812b223d55a--guileless-genie-b388b3.netlify.app/)
 
-✨ Features
-🔢 Add any number of nodes
-🔗 Connect nodes with weighted edges
-🎯 Choose source node
-⚡ Real-time shortest path calculation
-🛣️ Visual representation of the shortest path
-🧠 Helps understand Dijkstra’s Algorithm intuitively
-🛠️ Tech Stack
-HTML
-CSS
-JavaScript
-📖 About Dijkstra’s Algorithm
-Dijkstra’s Algorithm is a greedy algorithm used to find the shortest path between nodes in a graph with non-negative weights.
+---
 
-Steps:
-Initialize distances (0 for source, ∞ for others)
-Visit the nearest unvisited node
-Update distances to neighboring nodes
-Repeat until all nodes are processed
-This project visually demonstrates these steps in an interactive way.
+## 📌 Future Improvements
 
-💻 How to Use
-Add nodes to the graph
-Connect nodes using edges with weights
-Select the starting node
-Run the algorithm
-View the shortest path result visually
+* Add support for other algorithms (BFS, DFS, A*)
+* Weighted graph customization by user
+* Speed control and animation enhancements
 
+---
 
-🙋‍♂️ Author
+## 👨‍💻 Author
+
 Akshat Raj
 
-📌 Future Improvements
-Step-by-step animation of algorithm
-Support for directed graphs
-Highlight visited nodes
-Add speed control for visualization
+---
